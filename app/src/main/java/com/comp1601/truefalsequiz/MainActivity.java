@@ -10,8 +10,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
 
+public class MainActivity extends AppCompatActivity {
 
     private  final String TAG = this.getClass().getSimpleName() + " @" + System.identityHashCode(this);;
     private Button mAButton;
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<Question> mQuestions = new ArrayList() ;
     private  TextView mQuestionTextView;
+    private  TextView mAnalysisTextView;
     private int mCurrentQuestionIndex = 0;
     private String getDeviceInfo(){
         String s="Device info:";
